@@ -82,7 +82,7 @@ async function fetchReport(data) {
     ]
     
     try {
-        const url = 'https://openai-api-worker.guil-9d2.workers.dev'
+        const url = 'https://openai-api-worker.m-andreabr.workers.dev'
         
         const response = await fetch(url, {
             method: 'POST',
